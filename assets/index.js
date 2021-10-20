@@ -1,7 +1,3 @@
-const haze = require('./hazy.jpg');
-const rainy = require('./rain.jpg');
-const snow = require('./snowy.jpg');
-const sunny = require('./sun.jpg');
-const candle = require('./back.PNG')
+const candle = require('./doge.png');
 
-export {candle, haze, rainy, snow, sunny };
+export {candle};

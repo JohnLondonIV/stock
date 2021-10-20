@@ -11,7 +11,7 @@ export default function SearchBar({fetchStockData}){
     return(
         <View style={styles.searchbar}>
             <View>
-                <TextInput placeholder='Enter Symbol' 
+                <TextInput style={{width: '90%', height: 30}} placeholder='Enter Symbol' 
                     value={symbol} onChangeText={(text)=> setSymbol(text)}/>
             </View>
                 <EvilIcons name='search' size={28} color='black'
@@ -34,5 +34,6 @@ const styles = StyleSheet.create({
         paddingHorizontal: 10,
         backgroundColor: 'lightgray',
         borderColor: 'orange',
+
     }
 })
